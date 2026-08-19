@@ -1,0 +1,72 @@
+<mxfile host="app.diagrams.net" type="device">
+  <diagram name="Use-Case Diagram" id="uc1">
+    <mxGraphModel dx="1100" dy="700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <mxCell id="title" value="Use-Case Diagram — Freelance Content Creator Escrow Platform" style="text;html=1;align=center;fontSize=17;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="180" y="10" width="720" height="30" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="bnd" value="Escrow Platform" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=2;fontSize=13;fillColor=none;strokeColor=#333333" vertex="1" parent="1">
+          <mxGeometry x="290" y="55" width="520" height="500" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="a1" value="Client Sponsor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="105" width="60" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="a2" value="Content Creator" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="275" width="60" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="a3" value="Platform Admin" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="445" width="60" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="a4" value="Payment Gateway&#10;&lt;i&gt;&amp;laquo;external system&amp;raquo;&lt;/i&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="910" y="195" width="60" height="100" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="uc1" value="UC-01&#10;Post Commission" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f4f7fb;strokeColor=#2f5d8a" vertex="1" parent="1">
+          <mxGeometry x="325" y="98" width="210" height="64" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc2" value="UC-02&#10;Accept Commission" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f4f7fb;strokeColor=#2f5d8a" vertex="1" parent="1">
+          <mxGeometry x="325" y="193" width="210" height="64" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc3" value="UC-03&#10;Upload Deliverable" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f4f7fb;strokeColor=#2f5d8a" vertex="1" parent="1">
+          <mxGeometry x="325" y="288" width="210" height="64" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc4" value="UC-04&#10;Approve &amp;amp; Release Funds" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f4f7fb;strokeColor=#2f5d8a" vertex="1" parent="1">
+          <mxGeometry x="325" y="373" width="210" height="64" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc5" value="UC-05&#10;Raise Dispute" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f4f7fb;strokeColor=#2f5d8a" vertex="1" parent="1">
+          <mxGeometry x="325" y="483" width="210" height="64" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc6" value="Fund Escrow" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f4f7fb;strokeColor=#2f5d8a" vertex="1" parent="1">
+          <mxGeometry x="605" y="193" width="190" height="64" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="e1" style="endArrow=none;html=1;strokeColor=#333333;edgeStyle=none;" edge="1" parent="1" source="a1" target="uc1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e2" style="endArrow=none;html=1;strokeColor=#333333;edgeStyle=none;" edge="1" parent="1" source="a1" target="uc4"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e3" style="endArrow=none;html=1;strokeColor=#333333;edgeStyle=none;" edge="1" parent="1" source="a1" target="uc5"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e4" style="endArrow=none;html=1;strokeColor=#333333;edgeStyle=none;" edge="1" parent="1" source="a2" target="uc2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e5" style="endArrow=none;html=1;strokeColor=#333333;edgeStyle=none;" edge="1" parent="1" source="a2" target="uc3"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e6" style="endArrow=none;html=1;strokeColor=#333333;edgeStyle=none;" edge="1" parent="1" source="a3" target="uc5"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e7" style="endArrow=none;html=1;strokeColor=#333333;edgeStyle=none;" edge="1" parent="1" source="a4" target="uc6"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e8" style="endArrow=none;html=1;strokeColor=#333333;edgeStyle=none;" edge="1" parent="1" source="a4" target="uc4"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+        <mxCell id="inc" value="&amp;laquo;include&amp;raquo;" style="endArrow=open;endSize=12;dashed=1;html=1;strokeColor=#333333;fontStyle=2;edgeStyle=none;" edge="1" parent="1" source="uc2" target="uc6"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="ext" value="&amp;laquo;extend&amp;raquo;" style="endArrow=open;endSize=12;dashed=1;html=1;strokeColor=#333333;fontStyle=2;edgeStyle=none;" edge="1" parent="1" source="uc5" target="uc4"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="fline" value="" style="line;strokeWidth=1;html=1;strokeColor=#CCCCCC;" vertex="1" parent="1">
+          <mxGeometry x="30" y="585" width="1000" height="10" as="geometry"/>
+        </mxCell>
+        <mxCell id="fleft" value="Pramay Dubey&amp;nbsp; |&amp;nbsp; SRN: PES2UG24CS361&amp;nbsp; |&amp;nbsp; Freelance Content Creator Escrow Platform" style="text;html=1;align=left;fontSize=12;fontColor=#333333" vertex="1" parent="1">
+          <mxGeometry x="30" y="598" width="620" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="fright" value="Lab 1 — Use-Case Diagram" style="text;html=1;align=right;fontSize=12;fontColor=#333333" vertex="1" parent="1">
+          <mxGeometry x="770" y="598" width="260" height="20" as="geometry"/>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

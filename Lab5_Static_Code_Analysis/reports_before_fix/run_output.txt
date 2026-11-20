@@ -1,0 +1,6 @@
+WID-002 stock: -4
+Needs reorder: ['WID-002']
+Warehouse Stock Report
+WID-002 -> 21 units  [chk: a616ce]
+404 -> 15 units  [chk: 4f4adc]
+stock audit complete

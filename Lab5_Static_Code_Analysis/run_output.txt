@@ -1,0 +1,14 @@
+INFO: Received 40 units of WID-001
+WARNING: Rejected receipt for WID-002: invalid quantity -4
+WARNING: Rejected receipt: invalid SKU 404
+INFO: Issued 12 units of WID-001
+WARNING: Rejected issue: SKU GHOST-9 not in stock
+WARNING: Rejected issue of 500 units of WID-001: only 28 on hand
+WID-002 stock: 0
+Needs reorder: []
+INFO: Adjusted WID-002 from 0 to 25
+WARNING: Rejected adjustment of WID-002: formula may only use 'current', whole numbers and + - * //
+Warehouse Stock Report
+WID-001 -> 28 units  [chk: c53e41]
+WID-002 -> 25 units  [chk: a616ce]
+stock audit complete
